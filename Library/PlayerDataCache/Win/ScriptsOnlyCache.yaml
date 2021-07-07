@@ -47,35 +47,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1450}
+      Script: {instanceID: 1454}
     - Class: 114
-      Script: {instanceID: 1494}
+      Script: {instanceID: 1498}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2372}
+      Script: {instanceID: 2378}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 2834}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 2920}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3068}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3522}
+      Script: {instanceID: 3528}
     - Class: 114
-      Script: {instanceID: 3524}
+      Script: {instanceID: 3530}
     - Class: 114
-      Script: {instanceID: 3586}
+      Script: {instanceID: 3592}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -311,6 +311,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: downloadmp3
+  - hash:
+      serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -443,7 +449,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: eca02eb2d4d111dd1f1118f2096715a2
+      Hash: b3caaa6e5a0e4fdc93a7ef735c5b5fb2
     assemblyName: YoutubePlayer.dll
     namespaceName: YoutubePlayer
     className: YoutubePlayer
@@ -591,12 +597,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: downloadmp3
   platform: 5
   scenePathNames:
   - Assets/YoutubePlayer/Scenes/Player.unity

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AD0A12C8-9A1F-4B8E-83E8-EE98D64BBDE5}</ProjectGuid>
+    <ProjectGuid>{98A67C7A-8F69-9F1D-8A87-4CDA05B4A1DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,13 +60,13 @@
     <Compile Include="Assets\YoutubePlayer\Scripts\PanoramicSkyboxVideo.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\SimpleYoutubeVideo.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\VideoMetadata.cs" />
+    <Compile Include="Assets\YoutubePlayer\Scripts\downloadmp3.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\VideoPlayerProgress.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\PrepareYoutubeVideo.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\HideUI.cs" />
     <Compile Include="Assets\YoutubePlayer\Scripts\pauseplay.cs" />
-    <Compile Include="Assets\YoutubePlayer\Scripts\downloadmp3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

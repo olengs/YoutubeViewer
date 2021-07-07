@@ -406,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   youtubeUrl: https://www.youtube.com/watch?v=1PuGuqpHQGo
   is360Video: 0
-  youtubelinkinput: {fileID: 678746164}
+  text: {fileID: 678746164}
 --- !u!4 &484162782
 Transform:
   m_ObjectHideFlags: 0
@@ -1616,9 +1616,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: Play
+      - m_Target: {fileID: 1098178913}
+        m_TargetAssemblyTypeName: pauseplay, Assembly-CSharp
+        m_MethodName: PausePlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -9,7 +9,7 @@ namespace YoutubePlayer
         public async void Prepare()
         {
             Debug.Log("Loading video...");
-            await youtubePlayer.PrepareVideoAsync();
+            await youtubePlayer.PlayVideoAsync();
             Debug.Log("Video ready");
         }
     }

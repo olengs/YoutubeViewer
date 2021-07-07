@@ -30,22 +30,23 @@ namespace YoutubePlayer
         /// </summary>
         public bool is360Video;
 
-
-        public Text youtubelinkinput;
         /// <summary>
         /// VideoPlayer component associated with the current YoutubePlayer instance
         /// </summary>
         public VideoPlayer VideoPlayer { get; private set; }
 
+        public Text text;
+
         void Awake()
         {
             VideoPlayer = GetComponent<VideoPlayer>();
-            youtubeUrl = youtubelinkinput.text;
+            youtubeUrl = text.text;
+            VideoPlayer.playOnAwake = false;
         }
 
         void Update()
         {
-            youtubeUrl = youtubelinkinput.text;
+            youtubeUrl = text.text;
         }
 
         async void OnEnable()
@@ -136,7 +137,7 @@ namespace YoutubePlayer
         }
 
         /// <summary>
-        /// Download a youtube video to a destination folder (mp3)
+        /// Download a youtube video to a destination folder
         /// </summary>
         /// <param name="destinationFolder">A folder to create the file in</param>
         /// <param name="videoUrl">Youtube url (e.g. https://www.youtube.com/watch?v=VIDEO_ID)</param>
@@ -159,7 +160,7 @@ namespace YoutubePlayer
                 filePath = Path.Combine(destinationFolder, fileName);
             }
 
-            await YoutubeDownloader.DownloadAudioAsync(video, filePath, cancellationToken);
+            await YoutubeDownloader.DownloadAsync(video, filePath, cancellationToken);
             return filePath;
         }
 
@@ -170,7 +171,7 @@ namespace YoutubePlayer
                 return video.FileName;
             }
 
-            var fileName = $"{video.Title}.{video.Extension}";
+            var fileName = $"{video.Title}.mp4";
 
             var invalidChars = Path.GetInvalidFileNameChars();
             foreach (var invalidChar in invalidChars)
